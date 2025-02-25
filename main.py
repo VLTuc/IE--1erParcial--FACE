@@ -36,7 +36,7 @@ def extraer_texto_y_formulas(pdf_path):
 # Función para hacer la pregunta al LLM
 def hacer_pregunta(pregunta):
     # Extraer contenido del PDF
-    contexto = extraer_texto_y_formulas("TercerP.pdf")
+    contexto = extraer_texto_y_formulas("PrimerP.pdf")
 
     # Mensajes para el modelo
     mensajes = [
